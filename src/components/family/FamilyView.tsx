@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useFamily } from '../../context/FamilyContext';
 import { useAuth } from '../../context/AuthContext';
 import { MemberGoogleCalendarSection } from './MemberGoogleCalendarSection';
-import { getTimezoneBadge, getTimezoneDisplayLabel } from '../../utils/timezoneData';
+import { getTimezoneBadge, getTimezoneDisplayLabel, getTimezoneInfo } from '../../utils/timezoneData';
 import { TimezonePickerModal } from '../common/TimezonePickerModal';
 import {
   FamilyMember,
